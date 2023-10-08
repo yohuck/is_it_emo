@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="results">
+            <div class="form_group">
+                <h1>Is it emo?</h1>
+            </div>
+            <div class="form_group">
+                <span class="desc">Spotify ID:</span>
+                <span id="spotify_id">#######################</span>
+            </div>
+            <div class="form_group">
+                <span class="desc">Lyrics Found:</span>
+                <span id="lyrics_found">#####</span>
+            </div>
+            <div class="form_group">
+                <span class="desc">Score:</span>
+                <span id="score">##</span>
+            </div>
+            <div class="form_group_col">
+                <p class="desc">Description:</p>
+                <p id="explanation">You'll see the result of your query here.The bot is kinda a snob so just be ready for that.</p>
+            </div>
+        </div>
+    </div>
+ 
+    <div class="container-2">
+        <div class="progess-group">
+            <div class="circular-progress" >
+              <span class="value">0%</span>
+            </div>
+          </div>
+    </div>
+
+    <div class="container">
+        <form>
+            <div class="form_group">
+                <h1>Enter Song Information</h1>
+            </div>
+            <div class="form_group">
+                <label for="artist">Artist:</label>
+                <input type="text" id="artist" name="artist" placeholder="artist">
+            </div>
+            <div class="form_group">
+                <label for="artist">Song Title:</label>
+                <input type="text" id="song_title" name="song_title" placeholder="song">
+            </div>
+            <div class="form_group"><button id="submit">Submit</button></div>
+        </form>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
